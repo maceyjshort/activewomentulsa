@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/***Navigation******/
+nav{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #EF3DF2;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+nav li a{
+  text-decoration: none;
+}
+nav li a:link{
+  color:#3B67BF;
+}
+nav li a:hover{
+  color:#04C4D9;
+}
+nav li a:visited{
+  text-decoration: underline;
+  color:#05F228;
+}
