@@ -1,8 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+/****Global*****/
+.content-wrap{
+  /* max-width: 900px; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 
 /***Navigation******/
 nav{
