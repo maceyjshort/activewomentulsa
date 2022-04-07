@@ -1,15 +1,6 @@
 .item{
   display: grid;
 }
-.header{
-  grid-area: header;
-}
-.bar{
-  grid-area: bar;
-}
-.leaders{
-  grid-area: leaders;
-}
 .leader1{
   grid-area: leader1;
 }
@@ -34,14 +25,18 @@
 .photo4{
   grid-area: photo4;
 }
+.leader1, .leader2, .leader3, .leader4{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.leader2 p{
+  margin: 0;
+}
 .container{
   display: grid;
   grid-template-columns: repeat(2, 200px 1fr);
-  grid-template-rows: 2fr 100px 3fr 3fr 3fr;
+  grid-template-rows: 3fr 3fr;
   grid-template-areas:
-  "header header header header"
-  "bar bar bar bar"
-  "leaders leaders leaders leaders"
   "photo1 leader1 photo2 leader2"
   "photo3 leader3 photo4 leader4"
 }
