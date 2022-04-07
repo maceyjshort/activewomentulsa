@@ -1,0 +1,47 @@
+.item{
+  display: grid;
+}
+.header{
+  grid-area: header;
+}
+.bar{
+  grid-area: bar;
+}
+.leaders{
+  grid-area: leaders;
+}
+.leader1{
+  grid-area: leader1;
+}
+.photo1{
+  grid-area: photo1;
+}
+.leader2{
+  grid-area: leader2;
+}
+.photo2{
+  grid-area: photo2;
+}
+.leader3{
+  grid-area: leader3;
+}
+.photo3{
+  grid-area: photo3;
+}
+.leader4{
+  grid-area: leader4;
+}
+.photo4{
+  grid-area: photo4;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 200px 1fr);
+  grid-template-rows: 2fr 100px 3fr 3fr 3fr;
+  grid-template-areas:
+  "header header header header"
+  "bar bar bar bar"
+  "leaders leaders leaders leaders"
+  "photo1 leader1 photo2 leader2"
+  "photo3 leader3 photo4 leader4"
+}
