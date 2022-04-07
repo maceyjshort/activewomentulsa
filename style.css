@@ -49,3 +49,16 @@ nav li a:visited{
   text-decoration: underline;
   color:#05F228;
 }
+
+/*********Blog Posts*************/
+.blog-wrap{
+  width: 60%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.blog-wrap p {
+  font-size: 23px;
+}
+.blog-wrap strong, em{
+  color:#3B67BF;
+}
