@@ -25,9 +25,22 @@
 .photo4{
   grid-area: photo4;
 }
-.leader1, .leader2, .leader3, .leader4{
+.photo5{
+  grid-area: photo5;
+}
+.leader5{
+  grid-area: leader5;
+}
+.photo6{
+  grid-area: photo6;
+}
+.leader6{
+  grid-area: leader6;
+}
+.leader1, .leader2, .leader3, .leader4, .leader5, .leader6{
   margin-top: 40px;
   margin-left: 40px;
+  padding-right: 60px;
 }
 .leader2 p{
   margin: 0;
@@ -39,4 +52,5 @@
   grid-template-areas:
   "photo1 leader1 photo2 leader2"
   "photo3 leader3 photo4 leader4"
+  "photo5 leader5 photo6 leader6"
 }
