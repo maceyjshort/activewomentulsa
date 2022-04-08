@@ -62,3 +62,31 @@ nav li a:visited{
 .blog-wrap strong, em{
   color:#3B67BF;
 }
+
+
+
+
+/*********Current events*************/
+caption{
+  font-size: large;
+  font-weight: bold;
+  color: #EF3DF2;
+}
+td{
+  padding-left: 20px;
+}
+.events{
+  column-width: 330px;
+}
+th{
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid #3B67BF;
+  border-top: 1px solid #04C4D9;
+  text-align: center;
+}
+.event-wrap{
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
