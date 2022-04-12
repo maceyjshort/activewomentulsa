@@ -7,20 +7,26 @@
 .photo1{
   grid-area: photo1;
 }
+/**Annette is leader2***/
 .leader2{
   grid-area: leader2;
+  padding-top: 17px;
 }
 .photo2{
   grid-area: photo2;
 }
+/****Emily is Leader3*****/
 .leader3{
   grid-area: leader3;
+  padding-top: 18px;
 }
 .photo3{
   grid-area: photo3;
 }
+/*****Sherrl is leader4*******/
 .leader4{
   grid-area: leader4;
+  padding-top: 12px;
 }
 .photo4{
   grid-area: photo4;
