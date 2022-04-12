@@ -89,3 +89,22 @@ th{
   margin: 0 auto;
   padding: 60px 0;
 }
+
+
+/************Contact US************/
+input[type=reset], input[type=submit]{
+  background-color: lightgray;
+  border: none;
+  padding: 6px 2px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=reset]:hover, input[type=submit]:hover{
+  background-color: darkgray;
+  border: none;
+  padding: 6px 2px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
