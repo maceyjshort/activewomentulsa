@@ -21,6 +21,9 @@ a:hover{
 a:visted{
   color:#05F228;
 }
+img{
+  padding: 10px;
+}
 
 /***Navigation******/
 nav{
@@ -49,6 +52,44 @@ nav li a:visited{
   text-decoration: underline;
   color:#05F228;
 }
+
+/*********Welcome/Index*************/
+.welcome-wrap{
+  width: 70%;
+  margin: auto;
+}
+.item{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border: thin solid #3B67BF;
+}
+.post1{
+  grid-area: post1;
+}
+.post2{
+  grid-area: post2;
+}
+.post3{
+  grid-area: post3;
+}
+.post1, .post2, .post3{
+  justify-content: center;
+  padding-left: 5px;
+}
+strong{
+  font-size: x-large;
+}
+.container{
+  display: grid;
+  grid-gap: 0 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "post1 post2 post3"
+}
+
 
 /*********Blog Posts*************/
 .blog-wrap{
