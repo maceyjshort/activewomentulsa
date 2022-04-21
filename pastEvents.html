@@ -7,6 +7,19 @@
     <title>Active Women Tulsa</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .row{
+        display: flex;
+      }
+      .row img{
+        width: 500px;
+      }
+    </style>
   </head>
   <body>
     <div class="content-wrap">
@@ -22,10 +35,55 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
+    <h1>Check out our past events</h1>
+    <div class="row">
+      <div class="column">
+        <img src="images/hikingSelfie.jpg" alt="women on hiking trail" width="500">
+        <figcaption>This is on one of our hikes to Turkey Mountain in Tulsa.</figcaption>
+      </div>
+      <div class="column">
+        <img src="images/waterfall.jpg" alt="waterfall" height="400">
+        <figcaption>We found this waterfall on a hike that we took.</figcaption>
+      </div>
+      <div class="column">
+        <img src="images/talking.jpg" alt="two women talking" width="500">
+        <figcaption>Sometimes we also love it sit down and talk with each other.</figcaption>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="images/stream.jpg" alt="women enjoying the creek">
+        <figcaption>We sometimes take breaks just to enjoy the water.</figcaption>
+      </div>
+      <div class="column">
+        <img src="images/lifeJackets.jpg" alt="four women standing together">
+        <figcaption>We try a lot of fun adventures.</figcaption>
+      </div>
+      <div class="column">
+        <img src="images/bus.jpg" alt="women in front of bus">
+        <figcaption>We love our events that take us on the water. </figcaption>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="images/lunch.jpg" alt="women talking at a table">
+        <figcaption>We love socializing while eating out.</figcaption>
+      </div>
+      <div class="column">
+        <img src="images/fourWomen.jpg" alt="Four women">
+        <figcaption>Replace me</figcaption>
+      </div>
+      <div class="column">
+        <img src="images/bubbleRun.jpg" alt="women surrounded by bubbles" height="400">
+        <figcaption>We also love to do our marathons, including the Bubble Run.</figcaption>
+      </div>
+    </div>
 
 
 
-    <h1 class="text-3xl text-center text-red-500 mt-3">Vite ➕ Tailwind</h1>
+
+
     </div>
 
     <script type="module" src="/main.js"></script>
