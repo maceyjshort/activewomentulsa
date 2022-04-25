@@ -58,7 +58,7 @@ nav li a:visited{
   width: 70%;
   margin: auto;
 }
-.item{
+.item-welcome{
   display: grid;
   justify-content: center;
   align-items: center;
