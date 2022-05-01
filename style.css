@@ -12,14 +12,18 @@ h1{
   font-size: 50px;
   line-height: .5;
 }
-a {
-  color:#EF3DF2;
+a:link{
+  color:#3B67BF;
+}
+/******This isn't working. I don't know why it isn't and it is pissing my off... I can't google it either, nothing is being found.********/
+/* a:visited{
+  color:#05F228;
+} */
+a:visited::after{
+  color:#3B67BF;
 }
 a:hover{
-  color:#04C4D9;
-}
-a:visted{
-  color:#05F228;
+  color:#04C4D9
 }
 img{
   padding: 10px;
@@ -45,13 +49,14 @@ nav li a{
 nav li a:link{
   color:#3B67BF;
 }
+/* nav li a:visited{
+  text-decoration: underline;
+  color:#05F228;
+} */
 nav li a:hover{
   color:#04C4D9;
 }
-nav li a:visited{
-  text-decoration: underline;
-  color:#05F228;
-}
+
 
 /*********Welcome/Index*************/
 .welcome-wrap{
